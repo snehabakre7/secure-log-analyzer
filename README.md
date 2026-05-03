@@ -124,6 +124,7 @@ This project demonstrates how cybersecurity professionals monitor logs, detect s
 
 ## Certification
 
+[View Certificate](Coursera%20foundation%20of%20cybersecurity.pdf)   
 This project was developed as part of the "Foundations of Cybersecurity" course from the Google Cybersecurity Professional Certificate. It reflects the practical application of concepts such as log analysis, SQL querying, and basic task automation using Python.
 
 ---
