@@ -28,11 +28,16 @@ It simulates a basic Security Operations Center (SOC) workflow where logs are mo
 
 ## Project Files
 
-* analyzer.py            # Main script for log analysis
-* generator.py           # Generates sample log data
-* logs.sql               # Database setup and sample data
-* README.md              # Project documentation
-* database base.png      # Screenshot of the table generated 
+* analyzer.py            
+(Main script for log analysis)
+* generator.py           
+  (Generates sample log data)
+* logs.sql               
+  (Database setup and sample data)
+* README.md              
+  (Project documentation)
+* database base.png      
+  (Screenshot of the table generated)
 
 ---
 
