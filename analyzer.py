@@ -28,7 +28,7 @@ HAVING attempts >= 3
 results = cursor.fetchall()
 
 if results:
-    print("⚠️ Brute Force Attacks Detected:\n")
+    print("Brute Force Attacks Detected:\n")
     for row in results:
         print(f"User: {row[0]} | IP: {row[1]} | Attempts: {row[2]}")
 else:
@@ -39,13 +39,13 @@ else:
 # STEP 2: SUSPICIOUS IP DETECTION
 # ==============================
 
-# ✅ FIX: defined outside condition
+# FIX: defined outside condition
 trusted_ips = ["192.168.1.10", "10.0.0.5"]
 
 cursor.execute("SELECT DISTINCT ip FROM logs")
 ips = cursor.fetchall()
 
-print("\n⚠️ Suspicious IPs:\n")
+print("\n Suspicious IPs:\n")
 
 found = False
 for (ip,) in ips:
